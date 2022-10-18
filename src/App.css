@@ -1,38 +1,75 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html,
+body{
+  background: #FFFFFF;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.App{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
+}
+.nav{
+  background-color: #e6e6e6;
+  width: 25%;
+  height: 1000;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.MiLogo{
+  height: 150px;
+  margin: 10px 0 0 90px;
+}
+.list-nav{
+  margin-top: 100px;
+  list-style: none;
+}
+li{
+  margin: 0 0 30px 0;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  cursor: pointer;
+  color: #9E9E9E;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+li:hover{
+  color: #090F31;
+}
+main{
+  width: 100vh;
+}
+.container-buttons{
+  margin: 53px 0 0 100px;
+  justify-content: center;
+}
+h1{
+  margin-bottom: 50px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  margin: 0 0 50px 0;
+}
+footer{
+  position: absolute;
+  top: 1250px;
+  left: 50%;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+footer a{
+  text-decoration: none;
+  color: rgb(147, 95, 17);
 }

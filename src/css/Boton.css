@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+
+
+
+button {
+    font-family: "Noto Sans", sans-serif;
+    border-radius: 6px;
+    border: none;
+    font-weight: 500;
+    font-size: 15px;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-right: 275px;
+    margin-top: 20px;
+    background-color: #E0E0E0;
+    color: #3F3F3F;
+    width: 81px;
+    height: 36px;
+}
+  
+.btn-head{
+      color: #333;
+      font-size: 14px;
+      font-weight: 400;
+      font-family: 'Ubuntu Mono', monospace;
+      margin-bottom: 6%;
+}
+  
+.store-row{
+    margin-right: 250px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
