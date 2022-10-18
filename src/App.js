@@ -1,7 +1,6 @@
 import './App.css';
 import MiLogo from './img/MI-Logo.gif';
 import Boton from './componentes/Boton.jsx';
-import {useState} from 'react';
 
 
 function App() {
